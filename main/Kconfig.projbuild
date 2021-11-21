@@ -1,0 +1,49 @@
+menu "Power Monitor Configuration"
+    config POWER_MONITOR_WIFI_SSID
+        string "WiFi SSID"
+        default ""
+        help
+            SSID (network name) to connect to.
+
+    config POWER_MONITOR_WIFI_PASSWORD
+        string "WiFi Password"
+        default ""
+        help
+            WiFi password (WPA or WPA2).
+
+    config POWER_MONITOR_WIFI_MAXIMUM_RETRIES
+        int "WiFI Connection Maximum Retry Count"
+        default 5
+        help
+            Set the maximum retry count, when connection to a WiFi access point, in case of connection failures.
+
+    config POWER_MONITOR_MQTT_BROKER_URL
+        string "MQTT Broker URL"
+        default "mqtt://mqtt.sensix.xyz/mqtt"
+        help
+            URL of the MQTT broker to connect to.
+
+    config POWER_MONITOR_MQTT_TLS_PORT
+        int "MQTT Broker Port (TLS)"
+        default 8983
+        help
+            The TLS port used by the MQTT broker.
+
+    config POWER_MONITOR_MQTT_USERNAME
+        string "MQTT Broker Username"
+        default "sensix"
+        help
+            Username used to connect to the MQTT broker.
+
+    config POWER_MONITOR_MQTT_PASSWORD
+        string "MQTT Broker Password"
+        default "wsl2T5RmfqnVbVkh2g8YGA"
+        help
+            Password used to connect to the MQTT broker.
+
+    config POWER_MONITOR_SAMPLE_BUFFER_SIZE
+        int "Number of elements in a sample buffer"
+        default 4096
+        help
+            Maximum number of samples held by a buffer
+endmenu

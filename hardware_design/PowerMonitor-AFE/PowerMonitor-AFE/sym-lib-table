@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PowerMonitor-AFE)(type Legacy)(uri ${KIPRJMOD}/PowerMonitor-AFE.lib)(options "")(descr ""))
+  (lib (name PowerMonitor-ControllerBoard)(type Legacy)(uri C:/Users/flavi/Documents/hw/PowerMonitor-ControllerBoard/PowerMonitor-ControllerBoard.lib)(options "")(descr ""))
+)
