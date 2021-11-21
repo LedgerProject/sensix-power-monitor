@@ -1,4 +1,4 @@
-## SPD Enclosure based PowerMonitor - 2 DIN Modules - Single Phase
+## SPD Enclosure based PowerMonitor - 2 DIN Modules - Single/Three Phase
 
 ## Table of contents
 
@@ -40,7 +40,7 @@ After setting up the ESP IDF build environment and making sure the tools are ava
 ```
 idf.py build # Build the source code
 idf.py -p <port> flash
-idf.py -p <port> monitor 
+idf.py -p <port> monitor
 ```
 
 ## Running tests <a name="running-tests"></a>
